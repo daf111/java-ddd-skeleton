@@ -12,6 +12,8 @@ import tv.codely.shared.domain.Service;
 import java.util.Arrays;
 
 @SpringBootApplication
+
+//Autowiring
 @ComponentScan(
     includeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Service.class),
     value = {"tv.codely.apps", "tv.codely.mooc"}
