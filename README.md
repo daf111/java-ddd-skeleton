@@ -51,4 +51,3 @@ This is a repository intended to serve as a starting point if you want to bootst
 * ⚡ [Scala Basic Skeleton (g8 template)](https://github.com/CodelyTV/scala-basic-skeleton.g8)
 * ⚛ [Scala Examples](https://github.com/CodelyTV/scala-examples)
 * 🥦 [Scala DDD Example](https://github.com/CodelyTV/scala-ddd-example)
-
