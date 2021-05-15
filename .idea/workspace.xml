@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c5320a5-f046-46d0-afdb-53051ca8dda8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/tv/codely/apps/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/tv/codely/apps/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run" beforeDir="false" afterPath="$PROJECT_DIR$/run" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gradle.CoursesPutControllerShould">
+  <component name="RunManager" selected="Gradle.CourseCreatorShould">
+    <configuration name="CourseCreatorShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;tv.codely.mooc.courses.application.create.CourseCreatorShould&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":mooc:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="CoursesPutControllerShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -98,7 +116,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;tv.codely.mooc.controller.health_check.HealthCheckGetControllerShould&quot;" />
+        <option name="scriptParameters" value="--tests &quot;tv.codely.apps.mooc.controller.health_check.HealthCheckGetControllerShould&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -116,6 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CourseCreatorShould" />
+        <item itemvalue="Gradle.HealthCheckGetControllerShould" />
         <item itemvalue="Gradle.CoursesPutControllerShould" />
         <item itemvalue="Gradle.HealthCheckGetControllerShould" />
       </list>
